@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <script src="https://kit.fontawesome.com/48481a1841.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <img src="logo.png" alt="logo" class="logo">
+        </div>
+        <div class="navlist">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Skills</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contact </a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href="https://www.instagram.com/prettychetu/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/chetna.chaudhari.39/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://github.com/Chetna293"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/chetna-chaudhari-462a311ab/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="toggle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+
+    <header id="home" class="header cont">
+        <div class="shape"></div>
+        <div class="row model">
+            <div class="col col-1">
+                <h1>Hey, I am <span class="highlight">Chetna Chaudhari</span> a <span class="colors">Full Stack Developer</span></h1>
+                <p>Hi, I'm Chetna Chaudhari a Full Stack Web Designer from Shahada.I turn Ideas into High
+                    Quality websites</p>
+                <a href="#contact" class="ctn">Contact</a>
+            </div>
+            <div class="col col-2">
+                <div class="modelimg">
+                    <img src="mypic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="features">
+        <h1>My Skills</h1>
+        <div class="features">
+            <div class="f-box">
+                <img src="images/pngegg (5).png" alt="">
+                <h2>HTML CSS</h2>
+                <p><span class="highlight">HTML CSS</span> Are the first and main skill,which helps me achieve My Design</p>
+            </div>
+            <div class="f-box">
+                <img src="images/pngegg (4).png" alt="">
+                <h2>JAVASCRIPT</h2>
+                <p><span class="highlight">JAVASCRIPT</span> The Most Important skill,which makes My Design Interactive & Awesome</p>
+            </div>
+            <div class="f-box">
+                <img src="images/pngwing.com (5).png" alt="">
+                <h2>Node.js</h2>
+                <p><span class="highlight">Node.js</span> It helps me in building fast, scalable network applications</p>
+            </div>
+            <div class="f-box">
+                <img src="react.png" alt="">
+                <h2>React</h2>
+                <p><span class="highlight">React</span> It helps me making Robust & Intuitive User Interfaces for my applications</p>
+            </div>
+            <div class="f-box">
+                <img src="images/pngwing.com (4).png" alt="">
+                <h2>MongoDB</h2>
+                <p><span class="highlight">MongoDB</span> This helps in managing my database and storing it in a proper format</p>
+            </div>
+            <div class="f-box">
+                <img src="images/pngegg (8).png" alt="">
+                <h2>BOOTSTRAP</h2>
+                <p><span class="highlight">BOOTSTRAP</span> Its makes Everthing Easy & Maintains the Great Flow for My Design</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="portfolio cont">
+        <div class="rect-bg"></div>
+        <div class="title">
+            <h3>Projects</h3>
+            <div class="ctn-title">
+                <h1>All My Creative Works</h1>
+                <h4>Discover All Projects <a href=""><span class="highlight">Github <i class="fa fa-arrow-right"></i></span></a></h4>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="b-box">
+                <img src="Zomato.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="https://github.com/Chetna293/Zomato" target="blank" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="b-box">
+                <img src="Hotstar.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="https://github.com/Chetna293/Hotstar" target="blank" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="final">
+        <div class="map">
+            <h1 style="text-align: center;" >Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29688.79317202372!2d74.45667902676136!3d21.542978204060027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdf6cf43d2ec301%3A0xf0b69e91e6cc3f61!2sShahada%2C%20Maharashtra%20425409!5e0!3m2!1sen!2sin!4v1645501821338!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="contact" class="form">
+            <form action="">
+                <h1 style="text-align: center;">Contact Me</h1>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Email id" required>
+                <input type="text" id="phone" placeholder="Phone no." required>
+                <textarea id="message" rows="4" placeholder="How can I help you?"></textarea>
+                <button type="submit">Send</button>
+              
+               
+            </form>
+    </div>
+    </div>
+       
+    <footer>
+        <div class="foot">
+            <hr>
+        <p style="text-align: center; margin: 15px 0;">© 2022, Chetna Chaudhari - Full Stack Developer</p>
+        </div>
+    </footer>
+   <script>
+       let togglebtn = document.querySelector('.toggle-btn')
+       let navbar = document.querySelector('.navbar')
+
+       togglebtn.addEventListener('click', ()=>{
+           navbar.classList.toggle('mobile-nav')
+       })
+   </script>
+</body>
+
+</html>
